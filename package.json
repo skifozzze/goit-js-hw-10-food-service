@@ -18,11 +18,15 @@
     "url": "https://github.com/skifozzze/goit-js-hw-10-food-service/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "handlebars": "^4.7.7",
+    "parcel-bundler": "^1.12.5",
+    "parcel-transformer-hbs": "^1.0.3",
+    "sass": "^1.59.3"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
-    "parcel": "^2.6.0",
+    "parcel": "latest",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
