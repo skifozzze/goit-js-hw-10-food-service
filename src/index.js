@@ -1,2 +1,2 @@
-// import menu from './js/menu.js';
-// import theme from './js/theme.js';
+import menu from './js/menu.js';
+import theme from './js/theme.js';
