@@ -2,7 +2,8 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://skifozzze.github.io/goit-js-hw-10-food-service",
+  "main": "index.js",
+  "homepage": "https://skifozzze.github.io/goit-js-hw-10-food-service/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
@@ -18,6 +19,7 @@
     "url": "https://github.com/skifozzze/goit-js-hw-10-food-service/issues"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "handlebars": "^4.7.7",
     "parcel-transformer-hbs": "^1.0.3",
     "sass": "^1.59.3"
