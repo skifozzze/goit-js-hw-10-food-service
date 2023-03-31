@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "homepage": "https://skifozzze.github.io/goit-js-hw-10-food-service/",
-  "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
+ "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,18 +20,16 @@
   "bugs": {
     "url": "https://github.com/skifozzze/goit-js-hw-10-food-service/issues"
   },
-  "dependencies": {
-    "gh-pages": "^5.0.0",
-    "handlebars": "^4.7.7",
-    "parcel-transformer-hbs": "^1.0.3",
-    "sass": "^1.59.3"
-  },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
-    "parcel": "latest",
+    
     "parcel-plugin-handlebars-precompile": "^1.0.2",
-    "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "handlebars": "^4.7.7"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
